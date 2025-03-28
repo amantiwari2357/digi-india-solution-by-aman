@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/font": "^14.2.15",
     "@reduxjs/toolkit": "^2.6.1",
     "next": "15.2.4",
     "react": "^19.0.0",
@@ -17,14 +18,13 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "autoprefixer": "^10.4.21",
+    "autoprefixer": "^3.1.0",
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
-    "postcss": "^8.5.3",
+    "postcss": "^3.0.7",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
   },
@@ -32,6 +32,5 @@
   "main": "index.js",
   "keywords": [],
   "author": "aman tiwari",
-  "license": "ISC",
-  "type": "module"
+  "license": "ISC"
 }

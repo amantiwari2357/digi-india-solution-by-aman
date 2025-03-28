@@ -1,26 +1,7 @@
-import React from 'react'
-import HeroSection from  "@/components/Sections/HeroSection";
-import CrossAnimation from "@/components/Sections/CrossAnimation";
-import Creative from "@/components/Sections/Creative";
-import TextAnimation from "@/components/Sections/TextAnimation";
-import OurWork from "@/components/Sections/OurWork";
-import GetInTouch from "@/components/Sections/GetInTouch";
-import Feed from "@/components/Sections/Feed";
-import WorkPlace from "@/components/Sections/WorkPlace";
-
-const page = () => {
+export default function Home() {
   return (
-    <div>
-      <HeroSection />
-      <CrossAnimation/>
-      <Creative/>
-      <TextAnimation/>
-      <OurWork/>
-      <GetInTouch/>
-      <Feed/>
-      <WorkPlace/>
+    <div className="bg-blue-500 text-white text-3xl font-bold p-10">
+      Tailwind is Working!
     </div>
-  )
+  );
 }
-
-export default page
